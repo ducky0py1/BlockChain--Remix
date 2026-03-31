@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "updateMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/Contract/firstContrcat.sol": "SimpleContract"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/Contract/firstContrcat.sol": {
+			"keccak256": "0x9659a439c05bf0486acf6c29d0d2ce225683a56fa2e3d33ad15b23fa49af22e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://07917d16cec8794f23d9e7cf7bf87822962597129fdc174331e74c82cfff9564",
+				"dweb:/ipfs/QmNqZrPkMb42NdSsTez6Zcdtbp54mo2zja9hEgXpX9pacC"
+			]
+		}
+	},
+	"version": 1
+}
