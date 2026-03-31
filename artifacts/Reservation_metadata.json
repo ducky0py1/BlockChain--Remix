@@ -155,11 +155,11 @@
 	},
 	"sources": {
 		"Reservation.sol": {
-			"keccak256": "0x166b87b8aad82d1a6bb35984be3a71e2682f7a072251548478932420d24dc444",
+			"keccak256": "0x5775f0d71c087b0c9e752d483cf47863d0275bfb7959a7249f4bffdf80419ac4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8d8779f684a87193844905be68fbb25c46e70ca3c23ee998bd6c812cbb8849f2",
-				"dweb:/ipfs/QmZSy7EWvW8NWXga95pNd7JMvPDS2Dhzicj9vRBPPkSqZi"
+				"bzz-raw://049b6bf163ec6b1f5dea219bdfc949e168392f14fd6e434aafc3c20118e3862a",
+				"dweb:/ipfs/QmYPtrdggUjCFpv521zFw3iJZkvGMZZ5cSuE5fU2yo1WrZ"
 			]
 		}
 	},

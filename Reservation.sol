@@ -47,13 +47,15 @@ contract Reservation {
 
         booking.cancelled = true;
 
-        payable(msg.sender).transfer(booking.amount);
+        (bool success,) = payable(msg.sender).call{value: booking.amount}("");
+        require(success, "Transfer failed");
     }
 
     // Withdraw all funds (owner only)
     function withdraw() public {
         require(msg.sender == owner, "Not owner");
 
-        payable(owner).transfer(address(this).balance);
+        (bool success,) = payable(owner).call{value: address(this).balance}("");
+        require(success, "Transfer failed failed");
     }
 }
